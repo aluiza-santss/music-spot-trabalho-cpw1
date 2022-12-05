@@ -127,10 +127,39 @@
 }
 }
 
+.tr-mobile{
+  font-size: 3rem;
+}
+
+.music div:last-child{
+  font-size: 2rem;
+}
+
+.mobile-menu{
+  gap: 3rem;
+}
+
+.mobile-menu img{
+  width: 50px;
+}
+.mobile-menu span{
+  font-size: 1.7rem;
+}
+
+
 @media screen and (max-width: 500px){
 
+.btn-mobile-random{
+    padding: 1.2rem 3rem;
+    outline: none;
+}
+
+.btn-mobile-add{
+    font-size: 1rem;
+}
+
 .tr-mobile img{
-  width: 90px;
+  width: 60px;
 }
 
 .tr-mobile{
@@ -143,6 +172,13 @@
 
 .mobile-menu{
   gap: 5rem;
+}
+
+.mobile-menu img{
+  width: 40px;
+}
+.mobile-menu span{
+  font-size: 1.3rem;
 }
 
 }
@@ -163,11 +199,11 @@
   }
   
   .tr-mobile{
-    font-size: 1.1rem;
+    font-size: 1.6rem;
   }
   
   .music div:last-child{
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   
   .mobile-menu{
