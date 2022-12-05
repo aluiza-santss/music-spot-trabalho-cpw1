@@ -1,0 +1,30 @@
+@font-face {
+  font-family: spotify_bold;
+  src: url(../fonts/CircularSpotifyText-Bold.otf);
+}
+
+@font-face {
+  font-family: spotify_medium;
+  src: url(../fonts/CircularSpotifyText-Medium.otf);
+}
+
+@font-face {
+  font-family: spotify_ligth;
+  src: url(../fonts/CircularSpotifyText-Light.otf);
+}
+
+@font-face {
+  font-family: spotify_black;
+  src: url(../fonts/CircularSpotifyText-Black.otf);
+}
+
+@font-face {
+  font-family: spotify_book;
+  src: url(../fonts/CircularSpotifyText-Book.otf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+
+}

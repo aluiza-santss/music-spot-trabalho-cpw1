@@ -1,0 +1,183 @@
+
+
+.mobile-menu{
+  background-color: #535353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  bottom: 0;
+  gap: 8rem;
+}
+
+.mobile-menu div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.mobile-menu img{
+  width: 50px;
+}
+
+.mobile-menu span{
+  font-family: 'spotify_book';
+  font-size: 1.4rem ;
+
+}
+
+.header-mobile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 0;
+}
+
+.mobile-album-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.mobile-album-content h1{
+  font-family: 'spotify_bold';
+  font-size: 3rem;
+  padding-top: 2.5rem;
+}
+
+.mobile-album-content span{
+  font-family: 'spotify_book';
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  gap: 1.5rem;
+}
+
+.mobile-button-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn-mobile-random{
+  background-color: #1db954 ;
+  text-transform: uppercase;
+  font-family: 'spotify_book';
+  font-size: 1.8rem;
+  border: none;
+  padding: 1.5rem 5rem;
+  border-radius: 4rem;
+}
+
+.btn-mobile-add{
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-family: 'spotify_book';
+  font-size: 1.5rem;
+  min-width: 60%;
+  padding: 0.5rem 2.5rem;
+  border-radius: 3rem;
+  outline: none;
+}
+
+.tr-mobile img {
+  width: 130px;
+}
+
+.tr-mobile{
+  display: flex;
+  align-items: center;
+  font-family: 'spotify_book';
+  font-size: 1.6rem;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.music{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem
+}
+
+.uil-arrow-circle-down{
+  color: #1db954;
+}
+
+.music div:last-child{
+  font-family: spotify_ligth;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1024px){
+
+.desktop-container{
+  display: none;
+}
+
+.mobile-container{
+  display: block;
+}
+}
+
+@media screen and (max-width: 500px){
+
+.tr-mobile img{
+  width: 90px;
+}
+
+.tr-mobile{
+  font-size: 1.3rem;
+}
+
+.music div:last-child{
+  font-size: 1.1rem;
+}
+
+.mobile-menu{
+  gap: 5rem;
+}
+
+}
+
+@media screen and (max-width: 400px){
+
+  .btn-mobile-random{
+    padding: 1.2rem 3rem;
+    outline: none;
+  }
+
+  .btn-mobile-add{
+    font-size: 1rem;
+  }
+
+  .tr-mobile img{
+    width: 50px;
+  }
+  
+  .tr-mobile{
+    font-size: 1.1rem;
+  }
+  
+  .music div:last-child{
+    font-size: 1rem;
+  }
+  
+  .mobile-menu{
+    gap: 3rem;
+  }
+
+  .mobile-menu img{
+    width: 30px;
+  }
+  .mobile-menu span{
+    font-size: 1.1rem;
+  }
+  }
